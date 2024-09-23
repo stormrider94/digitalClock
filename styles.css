@@ -1,0 +1,34 @@
+*{
+    padding : 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height : 100vh;
+    background-color: black;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+
+}
+.container {
+    display : flex;
+    flex-direction : row;
+    justify-content: space-between;
+}
+
+.time-details h2 {
+    flex-shrink: 0;
+    font-size: 6.5vh;
+    color : white;
+    padding : .8vh;
+}
+
+span {
+    color : red;
+    padding : .8vh;
+}
+
+/*note that if the font size of my h2 is too big, the colons will move
+unto another line so that's something to watch out for. try adjusting the widths and stuff*/
